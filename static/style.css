@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,700;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 0px 19px;
+
+    
+}
+#logo img{
+    filter: invert(1);
+    
+    height: 29px;
+    width: 34px
+}
+#navbar{
+    background-color: #d03a3a;
+    padding: 13px 14px;
+    /* font-family: 'Tiro Bangla', serif; */
+    font-family: 'Amarante', cursive;
+}
+#navbar ul{
+
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+#navbar li {
+    list-style: none;
+    
+    
+}
+#navbar li a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 5px 30px;
+    
+    
+}
+#navbar li a:hover{
+    color: black;
+    
+    
+    
+}
+
+#introSection{
+    color: white;
+    font-size: 29px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Galada', cursive;
+    /* font-family: 'PT Serif', serif; */
+    align-items: center;
+    align-items: center;
+    background: center /cover no-repeat url("../static/bg.jpg");
+    height: 300px;
+    background-color: red;
+
+}
+#introSection div.small{
+    font-size: 23px;
+}
+#missionSection h2{
+    font-size: 23px;
+    font-family: 'Amarante', cursive;
+    text-align: center;
+    padding-top: 13px;
+}
+#missionSection{
+    height: 300px;
+    width: 67%;
+    margin: auto;
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 20px 14px;
+    height: 209px;
+}
+.card h2{
+    text-align: center;
+    font-weight: bold;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    margin: 12px 0px;
+    padding: 0px 21px;
+    height: 102px;
+
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+    padding: 23px;
+}
+.card-content p{
+    font-size: 15px;
+    
+}
+
+#sponserSection{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    height: 300px;
+    background-color: yellow;
+}
+#sponserSection h2{
+    font-family: 'Amarante', cursive;
+    text-align: center;
+    padding-top: 13px;
+    
+}
+#Sponsors{
+    
+    
+    height: 152px;
+    margin: 0px auto;
+    width: 1000px;
+}
+.spImage{
+    height: 80%;
+    margin: 35px
+}
+
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 27px;
+    color: white;
+    font-size: 13px;
+    background-color: black;
+
+
+}
+/* #footertext{
+    font-weight: bold;
+    margin: 8px 37px;
+    padding: 0 23px;
+} */

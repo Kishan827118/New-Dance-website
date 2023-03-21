@@ -1,0 +1,46 @@
+extends base.pug
+
+block script
+    script(src='/static/index.js' )
+
+block style 
+    style
+        include ../static/style.css
+
+block content 
+    section#introSection 
+        div Welcome to Kishan's Dance Academy 
+        div.small Eat Sleep Dance Repeat 
+
+    section#missionSection
+        h2 Our Mission
+        div.card 
+            h2 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/img/bgn.png")
+                div.card-content
+                    p This is the best dance acedmy of universe 
+        div.card 
+            h2 Dance the way you Like
+            div.card-box
+                div.card-img
+                   img(src="/static/img/n6.png")
+                div.card-content
+                    p This is the best dance acedmy of universe 
+        
+        div.card 
+            h2 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/img/n3.png")
+                div.card-content
+                    p This is the best dance acedmy of universe 
+         
+    section#sponserSection
+        h2 Our Sponsores
+        div#Sponsors
+            img(src= "/static/img/logo1.png", alt= "Sponsor Image", class= "spImage")
+            img(src= "/static/img/logo2.png", alt= "Sponsor Image", class= "spImage")
+            img(src= "/static/img/logo3.png", alt= "Sponsor Image", class= "spImage")
+            img(src= "/static/img/logo4.png", alt= "Sponsor Image", class= "spImage")      
